@@ -1,4 +1,4 @@
 [build]
-  command = "bundle install && gem install sinatra && gem install githubchart -v 4.0.0 && gem install thin puma reel http webrick && ruby app.rb -o 0.0.0.0"
+  command = "bundle install && gem install sinatra && gem install githubchart -v 4.0.0 && gem install thin puma reel http webrick && nohup ruby app.rb -o 0.0.0.0 &"
   publish = "public"
 
