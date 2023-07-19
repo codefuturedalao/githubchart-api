@@ -1,4 +1,4 @@
 [build]
-  command = "bundle install && ruby app.rb -o 0.0.0.0"
+  command = "bundle install && gem install sinatra && ruby app.rb -o 0.0.0.0"
   publish = "public"
 
