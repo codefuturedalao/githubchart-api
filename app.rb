@@ -8,6 +8,7 @@ require './color.rb'
 # red: 720100
 # green: 44a340
 
+set :port, 8080
 get '/' do
     send_file File.join(settings.public_folder, 'index.html')
 end
